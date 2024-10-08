@@ -1,0 +1,27 @@
+body {
+    margin: 0; /* Remove margens padrão */
+    padding: 0; /* Remove preenchimento padrão */
+    height: 100vh; /* Define a altura do corpo como 100% da altura da janela */
+    background-image: url('images/background.png'); /* Caminho para a imagem de fundo */
+    background-size: cover; /* Faz com que a imagem cubra toda a área */
+    background-repeat: no-repeat; /* Evita a repetição da imagem */
+    background-position: center; /* Centraliza a imagem */
+}
+
+.container {
+    position: relative; /* Para posicionar elementos filhos corretamente */
+    z-index: 1; /* Garante que os elementos dentro da .container fiquem acima do fundo */
+    text-align: center; /* Centraliza o texto e os elementos dentro da .container */
+    color: white; /* Cor do texto para contraste com o fundo */
+    padding: 20px; /* Preenchimento para espaçamento */
+}
+
+#friend-image {
+    width: 300px; /* Aumentado para 300 pixels */
+    height: auto; /* Mantém a proporção da imagem */
+}
+
+#response {
+    margin: 20px 0; /* Espaçamento acima e abaixo da resposta */
+    font-size: 18px; /* Tamanho da fonte da resposta */
+}
